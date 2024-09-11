@@ -1,11 +1,11 @@
 import React from "react";
-import faceIco from "../assets/facebook.png";
-import instaIco from "../assets/instagram.png";
-import xIco from "../assets/gorjeo.png";
-import youIco from "../assets/youtube.png";
-import mapsIco from "../assets/maps-and-location.png";
-import telIco from "../assets/telefono.png";
-import mailIco from "../assets/email.png";
+import faceIco from "../assets/icons/facebook.png";
+import instaIco from "../assets/icons/instagram.png";
+import xIco from "../assets/icons/gorjeo.png";
+import youIco from "../assets/icons/youtube.png";
+import mapsIco from "../assets/icons/maps-and-location.png";
+import telIco from "../assets/icons/telefono.png";
+import mailIco from "../assets/icons/email.png";
 
 import {} from '../styles/footer.css'
 

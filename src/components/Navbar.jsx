@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="header-navbar">
     <div className="nav-logo">
       <a href="#inicio">
-        <img src={Logo} alt="logo" />
+        {/* <img src={Logo} alt="logo" /> */}
         <p>TechSprout</p>
       </a>
     </div>
