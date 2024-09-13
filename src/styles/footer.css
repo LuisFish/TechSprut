@@ -1,40 +1,82 @@
 .footer{
     background: linear-gradient(#1e3a8a, #080F24);
-    width: 100%;
 }
 a, p{
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffffc4;
     font-family: "Roboto";
-    font-size: 10pt;
+    font-size: 9pt;
 }
 h4{
     color: #FFFFFF;
-    font-size: 13pt;
+    font-size: 12pt;
     font-family: "Poppins";
     font-weight: 500;
 }
 .content{
-    display: block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
+
+    padding:0 8rem 0 8rem;
+
 }
 .content-up{
     display: flex;
     justify-content: space-between;
-    align-items: start;
-    padding: 0 200px 0 200px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 100%;
+
 }
+.termins{
+    width: 280px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+}
+
 .iconos img{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+    padding-right: .5rem;
+}
+.termins p{
+    cursor: pointer;
 }
 .info img{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+    padding-right: .8rem;
+
 }
 .info a{
     display: flex;
     align-items: center;
+}
+
+hr {
+    color: #ffffff;
+    width: 100%;
+    border-color: #ffffff85;
+}
+.content-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content-down p{
+    color: #ffffffc2;
+}
+
+@media screen and (max-width: 850px){
+    
 }

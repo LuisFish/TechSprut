@@ -1,8 +1,16 @@
-import React from "react";
+import {Component} from "react";
 import {} from "../styles/navbar.css"
-import Logo from "../assets/icons/Logo.png"
+import Logo from "../assets/icons/logo.png"
+import menu from "../assets/icons/menu.png"
+import close from "../assets/icons/x.png"
 
-export default function Navbar() {
+class Navbar extends Component {
+
+  state={clicked: false};
+  handleClick = () =>{
+    this.setState({clicked: !this.state.clicked})
+  }
+  render (){
   return (
     <header className="header-navbar">
     <div className="nav-logo">
@@ -12,7 +20,7 @@ export default function Navbar() {
       </a>
     </div>
     <div className="sections">
-      <ul className="ul-menu">
+      <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
         <li>
           <a href="#inicio">Inicio</a>
         </li>
@@ -27,7 +35,15 @@ export default function Navbar() {
         </li>
       </ul>
     </div>
+
+    <div id="mobile" onClick={this.handleClick}>
+      <i id="bar" className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+    </div>
+
   </header>
   )
   
 }
+}
+
+export default Navbar;

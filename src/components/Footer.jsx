@@ -7,7 +7,7 @@ import mapsIco from "../assets/icons/maps-and-location.png";
 import telIco from "../assets/icons/telefono.png";
 import mailIco from "../assets/icons/email.png";
 
-import {} from '../styles/footer.css'
+import {} from "../styles/footer.css";
 
 function Footer() {
   return (
@@ -26,33 +26,43 @@ function Footer() {
               <p>Politica de Privacidad</p>
             </a>
           </div>
-          <div className="followus">
+          {/* <hr className="vert" /> */}
+          <div className="termins">
             <h4>SIGUENOS</h4>
             <div className="iconos">
-              <img src={faceIco} alt="facebook" />
-              <img src={instaIco} alt="instagram" />
-              <img src={xIco} alt="x" />
-              <img src={youIco} alt="youtube" />
+              <p><img src={faceIco} alt="facebook" /></p>
+              <p><img src={instaIco} alt="instagram" /></p>
+              <p><img src={xIco} alt="x" /></p>
+              <p><img src={youIco} alt="youtube" /></p>
             </div>
           </div>
-          <div className="info">
-            <h4>INFORMACION DE CONTACTO</h4>
-            <a href="https://www.google.com/">
-              <img src={mapsIco} alt="" />
-              <p>123 Tech Avenue, Suite 400, San Francisco, CA 94107, USA.</p>
-            </a>
-            <a href="https://www.google.com/">
-              <img src={telIco} alt="" />
-              <p>Tel:+1 (555) 123-4567</p>
-            </a>
-            <a href="https://www.google.com/">
-              <img src={mailIco} alt="" />
-              <p>contacto@techsprout.dev</p>
-            </a>
+          {/* <hr className="vert" /> */}
+
+          <div className="termins">
+            <div className="info">
+              <h4>INFORMACION DE CONTACTO</h4>
+              <a href="https://www.google.com/">
+                <img src={mapsIco} alt="" />
+                <p>123 Tech Avenue, Suite 400, San Francisco, CA 94107, USA.</p>
+              </a>
+              <a href="https://www.google.com/">
+                <img src={telIco} alt="" />
+                <p>Tel:+1 (555) 123-4567</p>
+              </a>
+              <a href="https://www.google.com/">
+                <img src={mailIco} alt="" />
+                <p>contacto@techsprout.dev</p>
+              </a>
+            </div>
           </div>
         </div>
+
+        <hr></hr>
+
         <div className="content-down">
-          <p>© 2024, TechSprut | All Right Reserved.</p>
+          <div className="content-down-copy">
+            <p>© {new Date().getFullYear()}, TechSprut | All Right Reserved.</p>
+          </div>
         </div>
       </div>
     </footer>
