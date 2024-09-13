@@ -4,7 +4,6 @@ import {Component} from "react";
 
 import Logo from "../assets/icons/logo.png"
 
-
 class Navbar extends Component {
 
   state={clicked: false};
