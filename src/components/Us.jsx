@@ -1,6 +1,10 @@
-import React from "react";
 import {} from "../styles/us.css";
+
+import React from "react";
+
 import laura from "../assets/img/laura.jpg";
+import carlos from "../assets/img/carlos.jpg";
+import ana from "../assets/img/ana.jpg";
 
 function Us() {
   return (
@@ -35,17 +39,17 @@ function Us() {
           </div>
         </div>
         <div className="personal">
-          <img src={laura} alt="LauraGomez" />
+          <img src={carlos} alt="CarlosPerez" />
           <div>
-            <h3>Laura Gomez</h3>
-            <p>CEO & Desarrolladora Web Full Stack</p>
+            <h3>Carlos Perez</h3>
+            <p>Desarrollador Front-End & Diseñador UI/UX</p>
           </div>
         </div>
         <div className="personal">
-          <img src={laura} alt="LauraGomez" />
+          <img src={ana} alt="AnaRodriguez" />
           <div>
-            <h3>Laura Gomez</h3>
-            <p>CEO & Desarrolladora Web Full Stack</p>
+            <h3>AnaRodriguez</h3>
+            <p>Desarrolladora Back-End & Consultora Tecnologia</p>
           </div>
         </div>
       </div>

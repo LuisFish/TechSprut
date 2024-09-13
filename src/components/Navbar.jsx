@@ -1,8 +1,9 @@
-import {Component} from "react";
 import {} from "../styles/navbar.css"
+
+import {Component} from "react";
+
 import Logo from "../assets/icons/logo.png"
-import menu from "../assets/icons/menu.png"
-import close from "../assets/icons/x.png"
+
 
 class Navbar extends Component {
 

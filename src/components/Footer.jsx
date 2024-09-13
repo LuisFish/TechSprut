@@ -1,13 +1,15 @@
-import React from "react";
+import {} from "../styles/footer.css";  //Primero importar Estilos
+
+import React from "react";  //Despues importaciones de librerias
+
+import xIco from "../assets/icons/gorjeo.png";  //Despues las imagenes/logos
+import mailIco from "../assets/icons/email.png";
+import youIco from "../assets/icons/youtube.png";
+import telIco from "../assets/icons/telefono.png";
 import faceIco from "../assets/icons/facebook.png";
 import instaIco from "../assets/icons/instagram.png";
-import xIco from "../assets/icons/gorjeo.png";
-import youIco from "../assets/icons/youtube.png";
 import mapsIco from "../assets/icons/maps-and-location.png";
-import telIco from "../assets/icons/telefono.png";
-import mailIco from "../assets/icons/email.png";
 
-import {} from "../styles/footer.css";
 
 function Footer() {
   return (
@@ -30,10 +32,18 @@ function Footer() {
           <div className="termins">
             <h4>SIGUENOS</h4>
             <div className="iconos">
-              <p><img src={faceIco} alt="facebook" /></p>
-              <p><img src={instaIco} alt="instagram" /></p>
-              <p><img src={xIco} alt="x" /></p>
-              <p><img src={youIco} alt="youtube" /></p>
+              <p>
+                <img src={faceIco} alt="facebook" />
+              </p>
+              <p>
+                <img src={instaIco} alt="instagram" />
+              </p>
+              <p>
+                <img src={xIco} alt="x" />
+              </p>
+              <p>
+                <img src={youIco} alt="youtube" />
+              </p>
             </div>
           </div>
           {/* <hr className="vert" /> */}
