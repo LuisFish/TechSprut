@@ -1,0 +1,92 @@
+#us {
+  height: 100vh;
+  padding: 0 50px 0 50px;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left h3 {
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-size: 24pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.left p {
+  font-family: "Roboto";
+  font-size: 14pt;
+  width: 74%;
+  text-align: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/misión.jpg);
+  border-radius: 10px 0px 0px 10px;
+  background-size: cover;
+  background-position-y: 50%;
+  width: 40%;
+  height: 300px;
+}
+
+.right h3 {
+  font-family: "Poppins";
+  text-transform: uppercase;
+  font-size: 24pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.right p {
+  font-family: "Roboto";
+  font-size: 14pt;
+  width: 74%;
+  text-align: center;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/img/Visión.jpg);
+  border-radius: 0px 10px 10px 0px;
+  background-size: cover;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 300px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+    margin: 4rem 4rem 0rem 4rem;
+}
+.personal img{
+    border-radius: 100%;
+    width: 300px;
+}
+.personal p{
+color: black;
+}
