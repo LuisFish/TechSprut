@@ -1,4 +1,5 @@
 import "./App.css";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
@@ -11,7 +12,8 @@ function App() {
       <body>
         <Navbar />
         <Services />
-        <Us />
+        {/* <Us /> */}
+        <Contact/>
         <Footer />
       </body>
     </div>

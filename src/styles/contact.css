@@ -1,0 +1,28 @@
+.container-contact {
+  display: flex;
+  width: 100%;
+}
+.container-form {
+  width: 40%;
+}
+
+.container-follow {
+  width: 25%;
+}
+
+.container-img {
+  width: 35%;
+}
+
+.flex{
+    display: flex;
+}
+
+.rounded-full{
+    border-radius: 100%;
+}
+
+.follow-us{
+    display: flex;
+    gap: 10px;
+}
