@@ -14,15 +14,49 @@
   width: 35%;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-.rounded-full{
-    border-radius: 100%;
+.rounded-full {
+  border-radius: 100%;
 }
 
-.follow-us{
-    display: flex;
-    gap: 10px;
+.follow-us {
+  display: flex;
+  gap: 10px;
+}
+
+.container-form form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-form form label {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 15px 0;
+}
+.container-form form label input {
+  background-color: #d9d9d9;
+  border-style: none;
+  margin-top: 6px;
+  height: 25pt;
+}
+.container-form form label textarea {
+  background-color: #d9d9d9;
+  border-style: none;
+  margin-top: 6px;
+  height: 130px;
+}
+#button {
+  background-color: #10b981;
+  border-style: none;
+  color: #ffffff;
+  width: fit-content;
+  padding: 10px 35px 10px 35px;
+  border-radius: 50px;
+  margin-right: 0%;
+  margin-left: auto
 }

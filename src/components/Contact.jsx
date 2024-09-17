@@ -12,7 +12,23 @@ export default function Contact() {
       {/* FORM */}
       <div className="container-form">
         <h2>Contactanos</h2>
-        <span>aqui va un formulario gracias</span>
+        <form id="form" action="submit">
+          <label htmlFor="">
+            Name
+            <input placeholder="Enter your name" type="text" name="name" id="name"  />
+          </label>
+          <label htmlFor="">
+            Email
+            <input placeholder="Enter your email" type="email" name="email" id="email" />
+          </label>
+          <label htmlFor="">
+            Message
+            <textarea name="message" id="message">
+
+            </textarea>
+          </label>
+          <input id="button" type="submit" value="ENVIAR" />
+        </form>
       </div>
 
       {/* FOLLOW-US */}
